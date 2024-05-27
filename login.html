@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOGIN</title>
+  <style>
+     body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f46b;
+      background-image: url(images/sgr.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      
+    
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 40px;
+      background-color: #f09c0a;
+      border-radius: 4px;
+      box-shadow: 0 0 10px rgba(12, 13, 12, 0.893);
+      
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .logo{
+      text-align: center;
+      margin-bottom: 20px;
+
+
+    }
+    .logo img{
+      width: 100px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 20px;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #072a03;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    .message {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .message a {
+      color: rgba(238, 12, 15, 0.799);
+      text-decoration: none;
+    }
+    .remember-me {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .remember-me input[type="checkbox"] {
+      margin-right: 10px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="bar">
+
+  </div>
+  <div class="container">
+    <h2>SGR Railway System Login</h2>
+    <div class="logo">
+     <img src="images/logo.jpg" alt="logo">
+
+    </div>
+    <form action="home.html">
+      <input type="text" name="username" placeholder="Username" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <div class="remember-me">
+        <input type="checkbox" name="remember" id="remember">
+        <label for="remember">Remember Me</label>
+      </div>
+
+      <input type="submit" value="Login">
+    </form>
+    <p class="message">Not registered? <a href="#">Create an account</a></p>
+  </div>
+  <footer>
+    <p>&copy; 2024 SGR Railway System. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>
